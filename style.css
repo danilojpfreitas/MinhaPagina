@@ -108,6 +108,10 @@ header ul li a:hover {
     animation: blink 1s steps(5, start) infinite;
 }
 
+#arrow .fa-solid:hover {
+    color: var(--color-black);
+}
+
 @keyframes blink {
     to {
         visibility: hidden;
@@ -181,6 +185,12 @@ main a button {
     border-radius: 1rem;
     width: 10rem;
     height: 3rem;
+    cursor: pointer;
+}
+
+.button01:hover {
+    background-color: var(--color-white);
+    color: var(--color-black);
 }
 
 /* Alguns Projetos */
@@ -202,7 +212,7 @@ main a button {
     justify-content: space-evenly;
 }
 
-#projetos h2 {
+#projetos h2, #contato h2 {
     color: var(--color-h2);
     font-size: 30px;
     margin-bottom: 4rem;
@@ -221,7 +231,7 @@ main a button {
 }
 
 #projetos .projeto h4 {
-    color: var(--color-h4);
+    color: var(--color-h6);
     font-size: 25px;
 }
 
@@ -251,7 +261,65 @@ main a button {
     height: 2rem;
     box-shadow: 1px 0.5px 5px 0.5px var(--color-white);
     border: 1px solid var(--color-white);
+    cursor: pointer;
 }
+
+.button02:hover {
+    background-color: var(--color-white);
+    color: var(--color-black);
+}
+
+/* Contato */
+
+#contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 5rem;
+}
+
+#contato h2 {
+    color: var(--color-white);
+    padding-top: 3rem;
+}
+
+#contato .contatos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 1200px;
+}
+
+#contato .contatos .contato {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--color-white);
+    width: 20rem;
+    height: 6rem;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+#contato .contatos .contato:hover {
+    background-color: var(--color-h2);
+}
+
+#contato .contatos .contato i {
+    font-size: 4rem;
+    padding-right: 1rem;
+}
+
+#contato .contatos .contato h3 {
+    font-size: 1.6rem;
+}
+
+#contato .contatos .contato span {
+    font-size: 0.9rem;
+}
+
+/* Footer */
 
 footer {
     display: flex;
