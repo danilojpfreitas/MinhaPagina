@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Danilo Freitas">
-    <meta name="description" content="Danilo Freitas">
-    <link rel="stylesheet" href="./styles.css">
+    <meta name="description" content="Portfólio Danilo Freitas">
+    <link rel="stylesheet" href="./style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,200;1,400&display=swap" rel="stylesheet">
@@ -14,30 +14,35 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Koulen&family=Poppins:ital,wght@0,300;0,400;0,500;1,200;1,400&family=Smooch&display=swap" rel="stylesheet">
-    <title>Danilo Freitas</title>
+    <title>Portfólio Danilo Freitas</title>
 </head>
 <body>
     <header>
         <div class="title">
-            <h2>Danilo Freitas</h2>
+            <a href="./index.html"><h2>Danilo Freitas</h2></a>
         </div>
         <ul>
             <li>
                 <a target="_blank" href="https://github.com/danilojpfreitas">github</a>
             </li>
             <li>
+                <a target="_blank" href="www.linkedin.com/in/danilo-freitas-dev">linkedin</a>
+            </li>
+            <li>
                 <a target="_blank" href="mailto:danilojpfreitas@gmail.com">email</a>
             </li>
             <li>
-                <a target="_blank" href="https://wa.me/48991300638">me liga</a>
+                <a target="_blank" href="#">contato</a>
             </li>
         </ul>
     </header>
     <main>
         <section class="container">
             <div class="name">
-                <h1>Danilo Freitas</h1>
-                <h5>Full Stack Dev</h5> 
+                <h1>Olá, <span></span></h1>
+                <h1>Meu nome é <span></span></h1>
+                <h1>Danilo <span></span></h1>
+                <h5>Sobre mim :) </h5> 
             </div>
 
             <div onclick="displayAbout()" id="arrow">
@@ -45,26 +50,88 @@
             </div>
             <div style="display: none" id="about">
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, quae quidem. Possimus provident ut nesciunt, asperiores, placeat voluptatum odio in soluta aliquam velit delectus, quisquam vitae ratione. Illo, cum ea.
+                    Engenheiro Civil na programação. Meu nome é Danilo Freitas, tenho 25 anos de idade. Sou apaixonado por tecnologia e sempre estou em busca de novos conhecimentos! No ano de 2021 embarquei no mundo da programação em que despertei um amplo interesse. Atualmente, sou um desenvolvedor em ascensão buscando minha primeira vaga na área :)
                 </p>
             </div>
 
-            <div class="form">
+            <a target="_blank" href="https://github.com/danilojpfreitas"><button class="button01">Meu Portfólio</button></a>
+
+            <!-- <div class="form">
                 <form action="">
                     <input type="text" placeholder="seu melhor email :)">
                     <button>enviar!</button>
                 </form>
-            </div>
+            </div> -->
         </section>
     </main>
 
-    <script>
-        function displayAbout() {
-            var arrow = document.getElementById('animation');
-            arrow.classList.toggle('rotate');
-            var display = document.getElementById('about');
-            display.classList.toggle('active');
-        }
-    </script>
+    <article id="projetos">
+
+        <div>
+
+            <a href="./index.html"><h2>Alguns projetos</h2></a>
+
+        </div>
+
+        <section class="projetos">
+
+            <div class="projeto">
+                <h4>Página DinDin</h4>
+                <h6>Front End</h6>
+                <p>Plataforma de conteúdo sobre Educação Financeira desenvolvido para desafio na Gama Academy,<br/> fazendo uso de HTML + CSS + JavaScript.</p>
+                <img src="./img/projeto01.png" alt="Imagem página DinDin">
+                <a target="_blank" href="https://github.com/danilojpfreitas/DinDin-GamaAcademy"><button class="button02">GitHub</button></a>
+            </div>
+
+            <div class="projeto">
+                <h4>Página Omma</h4>
+                <h6>Front End</h6>
+                <p>Plataforma de receitas culinárias desenvolvido para desafio na Gama Academy,<br/> fazendo uso de HTML + CSS + JavaScript.</p>
+                <img src="./img/projeto02.png" alt="Imagem página Omma">
+                <a target="_blank" href="https://github.com/danilojpfreitas/ListaDeReceitas"><button class="button02">GitHub</button></a>
+            </div>
+
+        </section>
+
+    </article>
+
+    <!-- <section>
+        <h2>Conhecimento</h2>
+        <h4>Desenvolvedor em evolução</h4>
+
+        <div>
+            <img src="" alt="">
+            <h3></h3>
+            <p></p>
+        </div>
+    </section> -->
+
+    <section>
+        <h2>Contato</h2>
+
+        <div>
+            <h3>Celular</h3>
+            <span></span>
+        </div>
+    </section>
+
+    <footer>
+        <h2>Danilo Freitas</h2>
+        
+        <div>
+            <h4>Linguagens de programação</h4>
+            <div id="img-dev">
+                <i class="fa-brands fa-html5"></i>
+                <i class="fa-brands fa-css3-alt"></i>
+                <i class="fa-brands fa-js"></i>
+                <i class="fa-brands fa-python"></i>
+            </div>
+        </div>
+
+        <span>Copyright &copy; 2022 Freitas's - Versão 1.0</span>
+    </footer>
+
+    <script src="./script.js"></script>
+
 </body>
 </html>
