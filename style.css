@@ -210,6 +210,19 @@ main a button {
     flex-direction: row;
     width: 1400px;
     justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#projetos .projetos .projeto {
+    margin-bottom: 3rem;
+}
+
+#projetos .buttons {
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
 }
 
 #projetos h2, #contato h2 {
