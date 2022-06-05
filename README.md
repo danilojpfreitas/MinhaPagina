@@ -12,7 +12,7 @@
 ## Preview do Projeto
 ---
 
-<a href="https://danilojpfreitas.github.io/MinhaPagina/" target="_blank"> Link para visualização do Projeto JobFinder</a>
+<a href="https://danilojpfreitas.github.io/MinhaPagina/" target="_blank"> Link para visualização do Projeto</a>
 
 ## Tecnologias Utilizadas
 ---
