@@ -440,6 +440,34 @@ footer h2 {
     }
 }
 
+@media only screen and (max-width: 600px) {
+    #projetos .projetos {
+        flex-direction: column;
+    }
+
+    #projetos .projeto {
+        width: 300px;
+    }
+
+    #projetos .projeto p {
+        width: 200px;
+    }
+
+    #projetos .projeto img {
+        width: 200px;
+        height: 200px;
+    }
+
+    #projetos .buttons {
+        width: 250px;
+    }
+
+    .buttons .button02 {
+        width: 6rem;
+        font-size: 12px;
+    }
+}
+
 @media only screen and (max-width: 480px) {
     header h2 {
         font-size: 20px;
