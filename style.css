@@ -422,7 +422,7 @@ footer h2 {
         align-items: center;
     }
     #contato .contatos {
-        width: 400px;
+        width: 350px;
         flex-direction: column;
         align-items: center;
         justify-content: center;
