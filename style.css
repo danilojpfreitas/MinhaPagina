@@ -180,7 +180,7 @@ header ul li a:hover {
 }
 
 main a button {
-    margin-top: 6rem;
+    margin-top: 1rem;
 }
 
 .button01 {
@@ -195,6 +195,10 @@ main a button {
 .button01:hover {
     background-color: var(--color-white);
     color: var(--color-black);
+}
+
+.container a {
+    height: 0px;
 }
 
 /* Alguns Projetos */
